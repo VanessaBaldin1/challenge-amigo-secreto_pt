@@ -62,7 +62,8 @@ Clique em Sortear Amigo.
 
 O sistema exibirá o nome do amigo sorteado.
 
-Acesse o deploy no github pages [https://vanessabaldin1.github.io/challenge-amigo-secreto_pt/']
+Acesse o deploy no github pages (https://vanessabaldin1.github.io/challenge-amigo-secreto_pt)
+
 
 
 
