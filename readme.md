@@ -62,6 +62,10 @@ Clique em Sortear Amigo.
 
 O sistema exibirá o nome do amigo sorteado.
 
+Acesse o deploy no github pages(https://vanessabaldin1.github.io/challenge-amigo-secreto_pt/)
+
+
+
 📄 Licença
 Este projeto está sob a licença MIT.
 Você pode usá-lo, modificá-lo e distribuí-lo livremente, desde que mantenha os créditos.
