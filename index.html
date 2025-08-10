@@ -3,35 +3,37 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Amigo Secreto — AmigoSecreto</title>
+  <title>Amigo Secreto — Challenge</title>
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <main class="container">
-    <header>
+  <main class="container" role="main">
+    <header class="header">
       <h1>Amigo Secreto</h1>
-      <p class="subtitle">Adicione nomes e sorteie um amigo secreto de forma simples.</p>
+      <p class="subtitle">Adicione participantes e sorteie um amigo secreto de forma rápida.</p>
     </header>
 
     <form id="formAdicionar" class="form" aria-label="Formulário adicionar amigo">
       <label for="inputAmigo" class="sr-only">Nome do amigo</label>
       <input
         id="inputAmigo"
+        name="inputAmigo"
         type="text"
         placeholder="Digite o nome do amigo"
         autocomplete="off"
         aria-required="true"
       />
-      <button id="btnAdd" type="submit">Adicionar</button>
+      <button id="btnAdd" class="btn btn--primary" type="submit">Adicionar</button>
     </form>
 
     <section class="lista-section" aria-labelledby="tituloLista">
       <h2 id="tituloLista">Lista de amigos <small id="contador">(0)</small></h2>
-      <ul id="listaAmigos" class="lista" aria-live="polite"></ul>
+      <ul id="listaAmigos" class="lista" aria-live="polite" role="list"></ul>
     </section>
 
     <div class="actions">
-      <button id="btnSortear" type="button">Sortear Amigo</button>
+      <button id="btnSortear" class="btn btn--secondary" type="button">Sortear Amigo</button>
+      <button id="btnLimpar" class="btn btn--danger" type="button">Limpar lista</button>
     </div>
 
     <div id="resultado" class="resultado" role="status" aria-live="polite"></div>
